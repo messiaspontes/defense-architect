@@ -2,7 +2,6 @@ import HeroSection from "@/components/HeroSection";
 import PainSection from "@/components/PainSection";
 import AuthoritySection from "@/components/AuthoritySection";
 import ProcessSection from "@/components/ProcessSection";
-import SocialProofSection from "@/components/SocialProofSection";
 import ObjectionSection from "@/components/ObjectionSection";
 import FinalCTASection from "@/components/FinalCTASection";
 import Footer from "@/components/Footer";
@@ -14,7 +13,6 @@ const Index = () => {
       <PainSection />
       <AuthoritySection />
       <ProcessSection />
-      <SocialProofSection />
       <ObjectionSection />
       <FinalCTASection />
       <Footer />
