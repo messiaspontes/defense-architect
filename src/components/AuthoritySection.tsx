@@ -1,11 +1,11 @@
-import { Gavel, Building2, Search, Clock, ShieldAlert } from "lucide-react";
+import { Gavel, Building2, Pill, Users, ShieldAlert } from "lucide-react";
 
 const areas = [
-  { icon: Gavel, title: "Preventive Arrest & Habeas Corpus" },
-  { icon: Building2, title: "Financial and Corporate Criminal Law" },
-  { icon: Search, title: "Complex Investigations" },
-  { icon: Clock, title: "Custody Hearings and Urgent Defense" },
-  { icon: ShieldAlert, title: "Strategic Crisis Management" },
+  { icon: Gavel, title: "Direito Penal Geral" },
+  { icon: Building2, title: "Crimes Financeiros e Tributários" },
+  { icon: Pill, title: "Lei de Tráfico de Drogas" },
+  { icon: Users, title: "Organização Criminosa" },
+  { icon: ShieldAlert, title: "Lei Maria da Penha" },
 ];
 
 const AuthoritySection = () => {
@@ -16,11 +16,11 @@ const AuthoritySection = () => {
           <div className="space-y-6">
             <div className="w-16 h-px bg-primary" />
             <h2 className="text-3xl md:text-4xl font-display font-bold leading-tight">
-              Defense Built on Strategy —{" "}
-              <span className="text-gold-gradient italic">Not Volume</span>
+              Defesa Construída com Estratégia —{" "}
+              <span className="text-gold-gradient italic">Não com Volume</span>
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl">
-              Messias Pontes Advocacia operates with a focused portfolio of cases, prioritizing quality over quantity. Each defense is structured with analytical depth, procedural intelligence, and careful positioning before authorities and courts.
+              Messias Pontes Advocacia opera com um portfólio restrito de casos, priorizando qualidade sobre quantidade. Cada defesa é estruturada com profundidade analítica, inteligência processual e posicionamento criterioso perante autoridades e tribunais.
             </p>
           </div>
 
